@@ -1,4 +1,28 @@
 Rails.application.routes.draw do
+  resources :sellreports
+
+  resources :acquisitions
+
+  resources :corrections
+
+  resources :tickets
+
+  resources :factures
+
+  resources :sells
+
+  resources :buys
+
+  resources :providers
+
+  resources :clients
+
+  resources :products
+
+  resources :categprods
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

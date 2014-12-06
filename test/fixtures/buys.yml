@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  total: 1.5
+  fecha: 2014-12-05
+  admin_user_id: 
+  provider_id: 
+
+two:
+  total: 1.5
+  fecha: 2014-12-05
+  admin_user_id: 
+  provider_id: 

@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  clave: MyString
+  description: MyText
+  stock: 1
+  avaible: false
+  pricepublic: 9.99
+  pricedesc: 9.99
+  pricemaxd: 9.99
+  categproduc_id: 
+
+two:
+  name: MyString
+  clave: MyString
+  description: MyText
+  stock: 1
+  avaible: false
+  pricepublic: 9.99
+  pricedesc: 9.99
+  pricemaxd: 9.99
+  categproduc_id: 

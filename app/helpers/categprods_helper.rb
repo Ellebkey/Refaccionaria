@@ -1,0 +1,2 @@
+module CategprodsHelper
+end

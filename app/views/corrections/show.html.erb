@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @correction.description %>
+</p>
+
+<p>
+  <strong>Ticket:</strong>
+  <%= @correction.ticket %>
+</p>
+
+<%= link_to 'Edit', edit_correction_path(@correction) %> |
+<%= link_to 'Back', corrections_path %>

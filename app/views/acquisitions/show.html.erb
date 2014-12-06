@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cant:</strong>
+  <%= @acquisition.cant %>
+</p>
+
+<p>
+  <strong>Product:</strong>
+  <%= @acquisition.product %>
+</p>
+
+<p>
+  <strong>Buy:</strong>
+  <%= @acquisition.buy %>
+</p>
+
+<%= link_to 'Edit', edit_acquisition_path(@acquisition) %> |
+<%= link_to 'Back', acquisitions_path %>

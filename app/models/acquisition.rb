@@ -1,0 +1,4 @@
+class Acquisition < ActiveRecord::Base
+  belongs_to :product
+  belongs_to :buy
+end

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Total:</strong>
+  <%= @sellreport.total %>
+</p>
+
+<p>
+  <strong>Fecha:</strong>
+  <%= @sellreport.fecha %>
+</p>
+
+<p>
+  <strong>Sell:</strong>
+  <%= @sellreport.sell %>
+</p>
+
+<%= link_to 'Edit', edit_sellreport_path(@sellreport) %> |
+<%= link_to 'Back', sellreports_path %>

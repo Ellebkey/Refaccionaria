@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  totalp: 1.5
+  admin_user_id: 
+  product_id: 
+  sell_id: 
+
+two:
+  totalp: 1.5
+  admin_user_id: 
+  product_id: 
+  sell_id: 

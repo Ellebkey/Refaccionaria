@@ -1,0 +1,29 @@
+<h1>Listing sellreports</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Total</th>
+      <th>Fecha</th>
+      <th>Sell</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @sellreports.each do |sellreport| %>
+      <tr>
+        <td><%= sellreport.total %></td>
+        <td><%= sellreport.fecha %></td>
+        <td><%= sellreport.sell %></td>
+        <td><%= link_to 'Show', sellreport %></td>
+        <td><%= link_to 'Edit', edit_sellreport_path(sellreport) %></td>
+        <td><%= link_to 'Destroy', sellreport, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Sellreport', new_sellreport_path %>
